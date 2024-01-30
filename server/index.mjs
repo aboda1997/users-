@@ -4,6 +4,7 @@ import app from "./app.mjs";
 import logger from "./shared/logger.mjs";
 import {port} from "./shared/config.mjs";
 
+
 let server;
 
 const exitHandler = (error) => {
